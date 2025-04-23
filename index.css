@@ -1,0 +1,128 @@
+@import url('fonts.css');
+body {
+    font-family: 'Vazirmatn';
+    direction: rtl;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+.header{
+    text-align: center;
+    color: #2c3e50;
+}
+
+.dropdown-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+}
+
+.dropdown-label{
+    font-weight: bold;
+    color: #34495e;
+}
+
+.dropdown-select{
+    padding: 5px 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    margin-left: 25px;
+    font-family: 'Vazirmatn';
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    text-transform: uppercase;
+}
+
+td input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #d6eaf8;
+}
+
+td:first-child {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+td:nth-child(2) {
+    font-weight: bold;
+    color: #333;
+}
+
+.searchSubmit{
+    padding: 2px 15px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: 'Vazirmatn';
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+}
+
+.searchSubmit:hover{
+    background-color: #2977ac;
+    border: 1px solid #2977ac;
+}
+
+.formSubmit{
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+}
+
+.formButton{
+    padding: 2px 15px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Vazirmatn';
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+}
+
+.formButton:hover{
+    background-color: #2977ac;
+    border: 1px solid #2977ac;
+}
+
+.formButton:disabled{
+    background-color: #797979;
+    border-color: #797979;
+}
+
+.notFound{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 0px 0px 5px 5px;
+}
